@@ -25,15 +25,12 @@ body {
 }
 
 .card:hover {
-  border: 3px solid #bce6ea;
+  box-shadow: 0 0 10px #069fad;
 }
 .card_primary {
   background-color: #e8eeee;
   font-size: 1.2rem;
   border-radius: 10px;
-}
-.card_primary:hover {
-  padding: 1px;
 }
 
 .card_footer {
@@ -45,8 +42,7 @@ body {
   text-decoration: line-through;
   font-size: 0.8rem;
 }
-.card_price {
-}
+
 .card_link {
   display: flex;
   width: 50%;
@@ -55,12 +51,14 @@ body {
   border-radius: 3px;
   text-decoration: none;
   color: white;
+  font-weight: 800;
+  border: none;
 }
 
 .card_link:hover {
   color: black;
   background-color: #069fad;
-  padding: 5%;
+  box-shadow: 0 0 10px #33eeff;
 }
 
 .footer {
