@@ -1,5 +1,24 @@
 /*
 */
+.navbar {
+  height: 60px;
+  width: auto;
+  background-color: rgb(168, 103, 228);
+  border-bottom: 2px solid gray;
+}
+.navbar::before {
+  content: "< MENU >";
+  color: #e8eeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.navbar:hover::before {
+  font-size: x-large;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +26,7 @@
 }
 
 body {
-  background-color: blueviolet;
+  background-color: rgb(138, 43, 226);
 }
 
 .card {
@@ -23,7 +42,6 @@ body {
   overflow: hidden;
   padding: 10px;
 }
-
 .card:hover {
   box-shadow: 0 0 10px #069fad;
 }
